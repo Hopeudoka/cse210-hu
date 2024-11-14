@@ -24,9 +24,25 @@ class Program
             }   
         }
 
+        int sum = 0;
         foreach (int num in numList)
         {
-            Console.WriteLine(num);
+            sum += num;
         }
+        Console.WriteLine($"The sum is: {sum}");
+
+        float averageNum = ((float)sum) / numList.Count;
+        Console.WriteLine($"The average is: {averageNum}");
+
+        int maxNum = numList[0];
+
+        foreach (int numb in numList)
+        {
+            if (numb > maxNum)
+            {
+                maxNum = numb;
+            }
+        }
+        Console.WriteLine($"The maximum number  is: {maxNum}");
     }
 }

@@ -36,13 +36,13 @@ class Program
 
     static int SquareNumber(int num)
     {
-        int SquaredNum = num * num;
-        return SquaredNum;
+        int squaredNum = num * num;
+        return squaredNum;
     }
 
-    static void DisplayResult(string userName, int SquaredNum)
+    static void DisplayResult(string userName, int squaredNum)
     {
-        Console.WriteLine($"{userName}, the square of your num is {SquaredNum}");
+        Console.WriteLine($"{userName}, the square of your num is {squaredNum}");
     }
 
 }
