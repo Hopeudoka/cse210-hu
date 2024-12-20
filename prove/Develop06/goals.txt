@@ -1,0 +1,2 @@
+50
+SimpleGoal|Give a talk|Give a talk at sacrament meeting.|50|True
